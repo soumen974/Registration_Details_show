@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: url("pxfuel.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  
+    
+}
+
+.squreBall{
+    background-color: #ffffff1b;
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    height: 1500px;
+    margin-top: -55%;
+    box-shadow: 0 5px 22px rgba(0, 0, 0, 0.059);
+    
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.card{
+    margin-top: -38%;
+    position:relative;
+    margin-left: 38%;
+    font-size: 20px;
+    
+}
+form{
+    margin-top: 3rem;
+    margin-left: 3%;
+}
+input[type="text"]{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    width: 19rem;
+    border-radius: 0.3rem;
+    border-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+
+}
+input[type="submit"]{
+    cursor: pointer;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 7rem;
+    margin-left: 6.2rem;
+    margin-top: 1.8rem;
+    font-size: 1.1rem;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 0.3rem;
+    background-color: black;
+    color: white;
+
+}
+:placeholder-shown{
+    font-size: 1.1rem;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(61, 3, 3);
+}
+input[type="submit"]:active{
+    background-color: rgb(227, 75, 48);
+    color: rgb(0, 0, 0);
+}
+
+input[type="submit"]:active  ~ .user-details{
+    display: block;
+}
+
+.cancel svg{
+    width:42px;
+    height:41px;
+    position: relative;
+    
+}
+.cancel{
+    margin-top: 5.3rem;
+    margin-left: 49.2%;
+
+}
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+.user-details{
+    /* position:relative; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.53);
+    max-width: 300px;
+    margin-left: 3%;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 33px;
+    display: none;
+    
+}

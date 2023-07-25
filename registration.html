@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="regst.css">
+</head>
+<body>
+    <div class="whole" id="wholeThing">
+        <div class="squreBall"><br></div>
+        
+        <div class="card">
+            <h2>Registration Details</h2>
+            <form id="myForm" onsubmit="return validateForm()">
+                <label>Your name</label>
+                <br>
+                <input class="name" id="name" type="text" placeholder="Enter your name" required>
+                <br>
+                <label>Your Registration no</label>
+                <br>
+                <input class="regDno" id="regDno" type="text" placeholder="Registration no" required>
+                <br>
+                <label>Your Email Id</label>
+                <br>
+                <input class="mailId" id="mailId" type="text" placeholder="Email id" required>
+                <br>
+                <label>Your mobile number</label>
+                <br>
+                <input class="mobile" id="mobile" type="text" placeholder="Mobile no" required>
+                <br>
+                <input id="buttonSubmit" type="submit" value="Submit">
+            </form>
+            <div id="output" class="user-details"></div>
+        </div>
+
+        <div class="cancel">
+            <svg width="42" height="41" viewBox="0 0 42 41" fill="none">
+<ellipse cx="21" cy="20.5" rx="21" ry="20.5" fill="#D9D9D9" fill-opacity="0.77"/>
+<rect x="13.9908" y="10" width="25.469" height="4.13412" rx="1" transform="rotate(46.34 13.9908 10)" fill="#3E3E3E" fill-opacity="0.71"/>
+<rect x="13.9908" y="10" width="25.469" height="4.13412" rx="1" transform="rotate(46.34 13.9908 10)" fill="#3E3E3E" fill-opacity="0.71"/>
+<rect x="13.9908" y="10" width="25.469" height="4.13412" rx="1" transform="rotate(46.34 13.9908 10)" fill="#3E3E3E" fill-opacity="0.71"/>
+<rect x="31.5928" y="12.8577" width="25.469" height="4.13412" rx="1" transform="rotate(133.729 31.5928 12.8577)" fill="#3E3E3E" fill-opacity="0.71"/>
+<rect x="31.5928" y="12.8577" width="25.469" height="4.13412" rx="1" transform="rotate(133.729 31.5928 12.8577)" fill="#3E3E3E" fill-opacity="0.71"/>
+<rect x="31.5928" y="12.8577" width="25.469" height="4.13412" rx="1" transform="rotate(133.729 31.5928 12.8577)" fill="#3E3E3E" fill-opacity="0.71"/>
+</svg>
+
+        </div>
+
+    </div>
+    
+    
+    <script src="regst.js"></script>
+</body>
+</html>
